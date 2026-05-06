@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../context/AuthContext';
+import { AuthContext } from '../../Context/AuthContext';
 import { FaBook, FaCheckCircle, FaArrowLeft, FaLock, FaClipboardList } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 

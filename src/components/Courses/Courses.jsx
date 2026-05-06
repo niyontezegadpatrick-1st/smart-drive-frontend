@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { AuthContext } from '../../context/AuthContext';
+import { AuthContext } from '../../Context/AuthContext';
 import { FaBook, FaCheckCircle, FaCreditCard } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
