@@ -3,7 +3,7 @@ import { Navigate } from 'react-router-dom';
 import { useAuth } from "../../Context/AuthContext";
 
 const ProtectedRoute = ({ children }) => {
-  const { currentUser, loading } = useContext(AuthContext);
+  const { currentUser, loading } = useAuth();
 
   if (loading) {
     return (
